@@ -1,0 +1,103 @@
+# OpenFile ./tb_Divider.vhd
+vsim work.testbench_divider
+# vsim work.testbench_divider 
+# Start time: 14:08:22 on Aug 02,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench_divider(behavioral)
+# Loading work.divider(behavioral)
+add wave -position insertpoint sim:/testbench_divider/DUT/*
+run -all
+vcom tb_Divider.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:25 on Aug 02,2023
+# vcom -reportprogress 300 tb_Divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Testbench_Divider
+# -- Compiling architecture Behavioral of Testbench_Divider
+# -- Loading package NUMERIC_STD
+# -- Loading entity Divider
+# End time: 14:10:26 on Aug 02,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+tb divider.vhd
+# bad index "divider.vhd": must be integer?[+-]integer? or end?[+-]integer?
+vcom Divider.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:37 on Aug 02,2023
+# vcom -reportprogress 300 Divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture Behavioral of Divider
+# End time: 14:10:37 on Aug 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb_Divider.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:41 on Aug 02,2023
+# vcom -reportprogress 300 tb_Divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Testbench_Divider
+# -- Compiling architecture Behavioral of Testbench_Divider
+# -- Loading package NUMERIC_STD
+# -- Loading entity Divider
+# End time: 14:10:42 on Aug 02,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.testbench_divider(behavioral)
+# Loading work.divider(behavioral)
+run -all
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+vcom Divider.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:14:01 on Aug 02,2023
+# vcom -reportprogress 300 Divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture Behavioral of Divider
+# End time: 14:14:01 on Aug 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb_Divider.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:14:03 on Aug 02,2023
+# vcom -reportprogress 300 tb_Divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Testbench_Divider
+# -- Compiling architecture Behavioral of Testbench_Divider
+# -- Loading package NUMERIC_STD
+# -- Loading entity Divider
+# End time: 14:14:03 on Aug 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.testbench_divider(behavioral)
+# Loading work.divider(behavioral)
+run -all
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# Break key hit
+# Simulation stop requested.
+# End time: 14:15:01 on Aug 02,2023, Elapsed time: 0:06:39
+# Errors: 1, Warnings: 0
